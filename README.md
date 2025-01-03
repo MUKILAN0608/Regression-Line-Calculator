@@ -1,5 +1,6 @@
-# Regression-Line-Calculator
-This repository contains an interactive Python program to calculate regression lines and perform related calculations. The program supports two input methods: statistical values (e.g., mean, standard deviation) and raw data points. It enables users to compute regression coefficients and regression equations, as well as make prediction
+Regression Line Calculator
+This repository contains an interactive Python program to calculate regression lines and perform related calculations. The program supports two input methods: statistical values (e.g., mean, standard deviation) and raw data points. It enables users to compute regression coefficients and regression equations, as well as make predictions using these equations.
+
 Features
 Input Methods:
 
@@ -158,35 +159,3 @@ Y using the regression line
 X on 
 𝑌
 Y.
-How to Run
-Install Python (if not already installed).
-Ensure NumPy is installed (pip install numpy).
-Run the script:
-bash
-Copy code
-python regression_calculator.py
-Follow the on-screen prompts to input data and perform calculations.
-Example
-Input:
-sql
-Copy code
-Choose input method:
-1. Statistical values (SD, mean)
-2. Data points (X and Y values)
-Enter choice (1/2): 2
-Enter X values separated by space: 1 2 3 4 5
-Enter Y values separated by space: 2 4 6 8 10
-Output:
-csharp
-Copy code
---- Regression Lines ---
-X on Y: X = 0.5000Y + 0.0000
-Y on X: Y = 2.0000X + 0.0000
-Prediction:
-arduino
-Copy code
-Enter your choice (1/2/3): 1
-Enter the X value: 6
-Result: Y = 12.0000
-Contribution
-Contributions are welcome! Feel free to submit issues or pull requests to enhance functionality or improve the codebase.
